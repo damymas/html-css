@@ -1,0 +1,133 @@
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+header{
+   background-color: #202124;
+   height: 10%;
+}
+header .conteiner-header {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 6px;
+}
+header .conteiner-header .container-img img {
+    width: 50px;
+    border-radius: 100px;
+}
+header .conteiner-header p {
+color: #9aa0a6;
+font: 1.5rem;
+padding: 10px;
+}
+main{
+    background-color:  #202124;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+main .conteiner-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+main .conteiner-input input {
+    background-color: #202124;
+    color: #e8eaed;
+    padding-left: 20px;
+    width: 500px;
+    border: 1px solid #9aa0a6;
+    border-radius: 80px;
+    height: 40px;
+    
+}
+
+
+main .conteiner-buttons button{
+    background-color: #303134;
+    color: #e8eaed; 
+    margin-top: 20px;
+    margin-left: 10px;
+    border: none; 
+    border-radius: 5px;
+    padding: 8px;
+
+}
+
+
+footer { 
+    background-color: #171717;
+    height: 15%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+footer .conteiner-footer-1 {
+border-bottom: 1px solid #9aa0a6 ;
+height: 50%;
+display: flex;
+align-items: center;
+font-size: 1.5rem;
+color: #9aa0a6;
+padding-left: 10px;
+}
+    
+
+footer .conteiner-footer-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50%;
+}
+footer .conteiner-footer-2 a {
+font-size:  1.5rem;
+color: #9aa0a6;
+padding-left: 10px;
+text-decoration: none;
+padding-right: 10px;
+}
+
+@media (max-width: 480px) {
+
+    header .conteiner-header p {
+        font-size: 1.2rem;
+        }
+        header .conteiner-header .container-img img{
+            width: 30px;
+        
+        }
+        main figure img {
+         width: 200px;
+        }
+        main .conteiner-input input{
+            width: 350px;
+            height: 30px;
+          }
+          
+          
+          footer .conteiner-footer-1 p {
+          font-size: 1.2rem;
+          }
+          
+          footer .conteiner-footer-2 a{
+          font-size: 1.2rem;
+          padding: 5px ;
+          }
+          
+          
+}
+
